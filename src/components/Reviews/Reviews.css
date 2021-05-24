@@ -1,0 +1,29 @@
+.reviews_count{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.reviews_count p {
+    margin: 0 16px  0 0;
+    color: #fff;
+
+}
+.reviews_count p span{
+    color: #fff;
+    opacity: 0.5;
+}
+
+.reviews_count svg{
+    cursor: pointer;
+}
+.left-icon{
+    transform:rotate(180deg);
+    display:flex;
+    margin-right: 15px;
+    fill: #fff !important;
+}
+
+.icon_container{
+    display:flex
+}

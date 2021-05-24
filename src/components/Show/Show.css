@@ -1,0 +1,104 @@
+.show_card{
+    width:268px;
+    height:387px;
+    border-radius: 8px;
+    background: #111229;
+    position: relative;
+    /* z-index: 11111; */
+    z-index: 12;
+}
+.show_card::after{
+    content:'';
+    height:100%;
+    width:100%;
+    display: block;
+    position: absolute;
+    background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
+    top: -8px;
+    left: 8px;
+    border-radius: 8px;
+    z-index: 0;
+    /* z-index: -1; */
+}
+.show_card > * {
+    position: relative;
+    z-index: 10;
+}
+
+.actor_image{
+    width:268px;
+    height:230px; 
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_info{
+    background: #111229;
+    z-index: 10;
+}
+
+.show_badge{
+    color: #682F26;
+    background: #E5C558;
+    padding: 0 3px;
+    font-size:12px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.info_content{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+    padding: 25px 10px 21px 10px;
+    background: #111229;
+    
+    height:157px;
+    border-radius: 0 0 8px 8px;
+}
+
+
+.actor_name h2{
+font-family: 'Libre Baskerville', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+margin: 8px 0;
+
+}
+
+.more_info{
+font-family: 'Nunito', sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #0259EB;
+display: flex;
+align-items:center;
+justify-content:space-between;
+cursor: pointer;
+}
+
+.more_info svg {
+    margin-left: 10px;
+}
+.info_body{
+    display: flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+.book svg{
+  cursor: pointer;
+}
+
+.book span{
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+    opacity: 0.2;
+}

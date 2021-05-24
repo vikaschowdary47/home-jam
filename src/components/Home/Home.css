@@ -1,0 +1,24 @@
+.home_container{
+    background-image: url(../../assests/bg.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:862px;
+    /* margin-top: 70px; */
+    position: relative;
+}
+
+.bg_overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%);
+    opacity: 0.4;
+}
+
+.home_body{
+    width:80%;
+    margin:auto
+}
