@@ -1,7 +1,5 @@
-import bg from "../../assests/bg.png";
 import Layout from "../Layout";
 import MainContainer from "../MainContainer";
-import Navigation from "../Navigation";
 import "./Home.css";
 
 const Home = () => {

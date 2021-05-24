@@ -1,4 +1,3 @@
-import Gutter from "../Gutter";
 import UpcomingShows from "../UpcomingShows";
 import Reviews from "../Reviews";
 import "./MainContainer.css";

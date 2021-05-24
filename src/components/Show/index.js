@@ -1,4 +1,3 @@
-import { Row, Col } from "react-bootstrap";
 import RightArrow from "../../assests/RightArrow";
 import ShowIcon from "../../assests/ShowIcon";
 import "./Show.css";
