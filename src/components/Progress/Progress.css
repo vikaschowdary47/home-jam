@@ -1,0 +1,44 @@
+.progress_body{
+    /* position: absolute; */
+    bottom: 50px;
+}
+
+.progress_circle{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 208px;
+    width: 208px;
+    border-radius:50%;
+    border:1px solid #fff;
+    /* opacity: 0.2 */
+    margin:20px 50px 10px 0
+}
+
+.progress_circle span{
+    color: #fff;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.progress_circle svg{
+    margin-bottom: 10px;
+}
+
+.carousel_container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin:30px 0
+}
+
+.carousel_container::-webkit-scrollbar{
+   display:none
+}
+
+.progress_circle_body{
+    margin:20px 50px 10px 0
+}

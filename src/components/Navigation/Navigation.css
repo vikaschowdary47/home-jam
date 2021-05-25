@@ -1,18 +1,25 @@
-.nav_container{
-    position:absolute;
-    width:100%;
+.nav_container {
+    position: absolute;
+    width: 100%;
     margin-bottom: 70px;
     z-index: 999;
-    top:0
+    top: 0
 }
-.navbar{
+
+.navbar {
     background-color: transparent !important;
 }
 
-.nav-link{
-    color:white !important;
-    font-size:14px;
-    font-weight:400;
+.nav-link {
+    color: white !important;
+    font-size: 14px;
+    font-weight: 400;
     font-family: open sans;
     margin-right: 40px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../../assests/Hamburger.png) !important;
+    width: 18.67px;
+    height: 12.67px
 }

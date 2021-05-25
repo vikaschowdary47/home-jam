@@ -53,13 +53,15 @@ const Reviews = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        <div className="carousel_container">
+          {/* <Row> */}
           {reviews.map((review) => (
-            <Col lg={4}>
+            <div className="review_contain">
               <Review review={review} key={review.id} />
-            </Col>
+            </div>
           ))}
-        </Row>
+          {/* </Row> */}
+        </div>
       </Gutter>
     </div>
   );

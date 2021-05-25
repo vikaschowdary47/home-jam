@@ -1,4 +1,18 @@
-.inner_gutter_content{
-    width:80%;
-    margin:auto
+.inner_gutter_content {
+    width: 80%;
+    margin: auto
+}
+
+@media (max-width: 1280px) {
+    .inner_gutter_content {
+        width: 90%;
+        margin: auto
+    }
+}
+
+@media (max-width: 600px) {
+    .inner_gutter_content {
+        width: 95%;
+        margin: auto
+    }
 }

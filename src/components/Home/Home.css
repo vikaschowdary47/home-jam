@@ -8,6 +8,12 @@
     position: relative;
 }
 
+@media  (max-width: 1280px) {
+.home_container{
+    background-position: center;
+}
+}
+
 .bg_overlay{
     position: absolute;
     top: 0;
@@ -21,4 +27,30 @@
 .home_body{
     width:80%;
     margin:auto
+}
+
+.main_heading{
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100%; */
+    position: absolute;
+    /* padding:70px 150px; */
+    margin-top:250px;
+}
+
+.main_heading h1{
+    color:#fff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.main_heading p {
+    font-family: 'Nunito', sans-serif;
+    color:#fff;
+    opacity: 0.6;
+    font-size: 24px;
 }

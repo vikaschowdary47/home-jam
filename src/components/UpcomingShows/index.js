@@ -26,13 +26,13 @@ const UpcomingShows = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        <div className="carousel_container">
           {celebrities.map((celebrity) => (
-            <Col lg={3}>
-              <Show actor={celebrity} key={celebrity.id} />
-            </Col>
+            // <Col lg={3}>
+            <Show actor={celebrity} key={celebrity.id} />
+            // </Col>
           ))}
-        </Row>
+        </div>
       </Gutter>
     </div>
   );

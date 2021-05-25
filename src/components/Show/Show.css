@@ -4,8 +4,8 @@
     border-radius: 8px;
     background: #111229;
     position: relative;
-    /* z-index: 11111; */
     z-index: 12;
+    margin:20px 50px 10px 0
 }
 .show_card::after{
     content:'';
@@ -24,6 +24,7 @@
     position: relative;
     z-index: 10;
 }
+
 
 .actor_image{
     width:268px;
