@@ -35,7 +35,9 @@
     justify-content:space-between;
     overflow-y: hidden;
     overflow-x: scroll;
-    margin:30px 0
+    margin:30px 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
 }
 
 .carousel_container::-webkit-scrollbar{
