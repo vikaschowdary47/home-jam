@@ -13,7 +13,7 @@ const Navigation = () => {
           <Navbar.Brand href="#home">
             <img src={logo} alt="logo" />
           </Navbar.Brand>
-          <Nav className="ml-auto d-flex flex-row">
+          <Nav className="ml-auto d-flex flex-row hide_nav_link">
             <Nav.Link href="#Search" className="mr-3">
               <Search color="white" />
             </Nav.Link>

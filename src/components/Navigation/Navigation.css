@@ -23,3 +23,20 @@
     width: 18.67px;
     height: 12.67px
 }
+
+.navbar-toggler{
+    border:none !important
+}
+
+.hide_nav_link{
+    display:none !important
+}
+
+
+@media (max-width:991px){
+
+    .hide_nav_link{
+        display:flex !important
+}
+
+}

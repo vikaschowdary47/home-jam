@@ -36,7 +36,7 @@
     overflow-y: hidden;
     overflow-x: scroll;
     margin:30px 0;
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: none;  /* InE and Edge */
     scrollbar-width: none;
 }
 
