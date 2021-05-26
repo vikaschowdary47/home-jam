@@ -1,3 +1,4 @@
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Gutter from "../Gutter";
 import hellen from "../../assests/reviews/hellen.png";
@@ -34,6 +35,7 @@ const reviews = [
 ];
 
 const Reviews = () => {
+  const scroll = React.useRef(null);
   return (
     <div className="mb-5 pb-5">
       <Gutter>
@@ -45,15 +47,23 @@ const Reviews = () => {
                 <p>
                   1<span>/12</span>
                 </p>
-                <div className="left-icon">
+                <div
+                  className="left-icon"
+                  onClick={() => scroll.current.scrollBy(-360, 0)}
+                >
                   <RightArrow white />
                 </div>
-                <RightArrow white />
+                <div
+                  className="d-flex"
+                  onClick={() => scroll.current.scrollBy(360, 0)}
+                >
+                  <RightArrow white />
+                </div>
               </div>
             </div>
           </Col>
         </Row>
-        <div className="carousel_container">
+        <div className="carousel_container" ref={scroll}>
           {/* <Row> */}
           {reviews.map((review) => (
             <div className="review_contain">
